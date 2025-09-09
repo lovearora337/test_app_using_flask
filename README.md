@@ -6,6 +6,6 @@ This is a test web app which is running on ecs
 
 manageyourhealth.py                  
 Templates                          
-  index.html                     
+>  index.html                     
 requirement.txt                  
    
