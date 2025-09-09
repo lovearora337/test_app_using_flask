@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ManageYourHealth - Premium Dry Fruits</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #fffdf7;
+      color: #333;
+    }
+    header {
+      background: #8bc34a;
+      color: white;
+      padding: 1.5rem;
+      text-align: center;
+      font-size: 1.8rem;
+      font-weight: bold;
+    }
+    nav {
+      background: #6fa233;
+      display: flex;
+      justify-content: center;
+      padding: 0.8rem;
+    }
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin: 0 15px;
+      font-size: 1.1rem;
+      transition: color 0.3s;
+    }
+    nav a:hover {
+      color: #ffeb3b;
+    }
+    .hero {
+      background: url('https://images.unsplash.com/photo-1603187282155-d87df1b57ef4?ixlib=rb-4.0.3&auto=format&fit=crop&w=1400&q=80') center/cover no-repeat;
+      height: 80vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: white;
+      text-align: center;
+      padding: 20px;
+    }
+    .hero h1 {
+      font-size: 3rem;
+      background: rgba(0, 0, 0, 0.6);
+      padding: 20px;
+      border-radius: 15px;
+    }
+    section {
+      padding: 3rem 2rem;
+      max-width: 1200px;
+      margin: auto;
+    }
+    .about, .contact {
+      text-align: center;
+    }
+    .products {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+    }
+    .card {
+      background: white;
+      border-radius: 12px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+      text-align: center;
+      padding: 1.5rem;
+      transition: transform 0.3s;
+    }
+    .card img {
+      max-width: 100%;
+      border-radius: 10px;
+    }
+    .card:hover {
+      transform: translateY(-5px);
+    }
+    footer {
+      background: #6fa233;
+      color: white;
+      text-align: center;
+      padding: 1.5rem;
+      margin-top: 40px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    ManageYourHealth.com - Premium Dry Fruits
+  </header>
+
+  <nav>
+    <a href="#about">About</a>
+    <a href="#products">Products</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <div class="hero">
+    <h1>Fresh, Healthy & Organic Dry Fruits</h1>
+  </div>
+
+  <section id="about" class="about">
+    <h2>About Us</h2>
+    <p>
+      Welcome to <strong>ManageYourHealth.com</strong> – your trusted destination for premium quality dry fruits.  
+      We are committed to bringing you healthy, organic, and delicious nuts & dry fruits to support your lifestyle.
+    </p>
+  </section>
+
+  <section id="products">
+    <h2 style="text-align:center;">Our Products</h2>
+    <div class="products">
+      <div class="card">
+        <img src="https://images.unsplash.com/photo-1622327113347-52b4da41d652?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Almonds">
+        <h3>Almonds</h3>
+        <p>Rich in protein, vitamins, and minerals.</p>
+      </div>
+      <div class="card">
+        <img src="https://images.unsplash.com/photo-1630383249895-f869768c4ad4?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Cashews">
+        <h3>Cashews</h3>
+        <p>Creamy, crunchy, and heart-friendly nuts.</p>
+      </div>
+      <div class="card">
+        <img src="https://images.unsplash.com/photo-1590080876426-3afbbcd89062?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Raisins">
+        <h3>Raisins</h3>
+        <p>Sweet, iron-rich energy boosters.</p>
+      </div>
+      <div class="card">
+        <img src="https://images.unsplash.com/photo-1615486364946-8cbe43d6f8be?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Walnuts">
+        <h3>Walnuts</h3>
+        <p>Brain-boosting omega-3 rich dry fruits.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="contact">
+    <h2>Contact Us</h2>
+    <p>Email: <a href="mailto:info@manageyourhealth.com">info@manageyourhealth.com</a></p>
+    <p>Phone: +91 ********** </p>
+    <p>Address: New Delhi, India</p>
+  </section>
+
+  <footer>
+    &copy; 2025 ManageYourHealth.com | Eat Healthy, Live Healthy
+  </footer>
+
+</body>
+</html>
